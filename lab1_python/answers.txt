@@ -1,0 +1,4 @@
+No, the second image performed significantly worse than the first image. 
+While the first image could correctly, point out several tail lights. 
+The second image failed to even identify one of the two tail lights in the picture and incorretly detected a traffic sign and flag, giving false positives. 
+This could be caused by the different angle and lighting taken from the second image.
