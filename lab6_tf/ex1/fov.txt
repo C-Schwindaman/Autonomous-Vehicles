@@ -1,0 +1,3 @@
+X focal length (pixels): 501.655541
+Width of image (pixels): 640
+Horizontal fov (deg):    65.06
