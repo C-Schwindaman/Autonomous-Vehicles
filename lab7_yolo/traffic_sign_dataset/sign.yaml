@@ -1,0 +1,17 @@
+path: /mnt/ffs24/home/schwind7/av/schwind7_av/lab7_yolo/traffic_sign_dataset
+train: train/images
+val: valid/images
+names:
+  0: bicycle
+  1: disabled_persons_crossing
+  2: do_not_enter
+  3: handicap_parking
+  4: no_bicycle
+  5: no_u_turn
+  6: one_way
+  7: pedestrian_crossing
+  8: railroad_crossing
+  9: school_crossing
+  10: stop
+  11: traffic_signal
+  12: yield

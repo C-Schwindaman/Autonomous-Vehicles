@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['bicycle', 'disabled_persons_crossing', 'do_not_enter', 'handicap_parking', 'no_bicycle', 'no_u_turn', 'one_way', 'pedestrian_crossing', 'railroad_crossing', 'school_crossing', 'stop', 'traffic_signal', 'yield']
+
+roboflow:
+  workspace: autonomous-vehicles-wkfwa
+  project: lab-7-ol8ux
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/autonomous-vehicles-wkfwa/lab-7-ol8ux/2
