@@ -1,0 +1,87 @@
+{
+  "name": "lab7_yolo",
+  "type": "directory",
+  "children": [
+    {
+      "name": "PR_curve.png",
+      "type": "file"
+    },
+    {
+      "name": "centered_sign.png",
+      "type": "file"
+    },
+    {
+      "name": "sign_visualization.png",
+      "type": "file"
+    },
+    {
+      "name": "traffic_sign_dataset",
+      "type": "directory",
+      "children": [
+        {
+          "name": "data.yaml",
+          "type": "file"
+        },
+        {
+          "name": "sign.yaml",
+          "type": "file"
+        },
+        {
+          "name": "train",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "name": "valid",
+          "type": "directory",
+          "children": [
+              ]
+        }
+      ]
+    },
+    {
+      "name": "train.py",
+      "type": "file"
+    },
+    {
+      "name": "yolo_det",
+      "type": "directory",
+      "children": [
+        {
+          "name": "package.xml",
+          "type": "file"
+        },
+        {
+          "name": "setup.cfg",
+          "type": "file"
+        },
+        {
+          "name": "setup.py",
+          "type": "file"
+        },
+        {
+          "name": "yolo_det",
+          "type": "directory",
+          "children": [
+            {
+              "name": "__init__.py",
+              "type": "file"
+            },
+            {
+              "name": "det_img.py",
+              "type": "file"
+            },
+            {
+              "name": "sample_img.py",
+              "type": "file"
+            },
+            {
+              "name": "find_and_center_sign.py",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

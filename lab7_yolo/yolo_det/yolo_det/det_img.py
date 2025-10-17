@@ -10,6 +10,12 @@ from ultralytics import YOLO
 class YoloDetector(Node):
     def __init__(self, weights_path):
         super().__init__('yolo_detector_node')
+        namespace = os.environ.get("ROBOT_NAMESPACE", "")
+        if namespace:
+            self.topic_name = f"/{namespace}/oakd/rgb/preview/image_raw"
+        else:
+            self.topic_name = "/oakd/rgb/preview/image_raw"
+        self.get_logger().info(f"Attempting to subscribe to topic: {self.topic_name}")
         self.bridge = CvBridge()
         self.topic_name = '/oakd/rgb/preview/image_raw'
         if not os.path.exists(weights_path):
