@@ -17,7 +17,6 @@ class YoloDetector(Node):
             self.topic_name = "/oakd/rgb/preview/image_raw"
         self.get_logger().info(f"Attempting to subscribe to topic: {self.topic_name}")
         self.bridge = CvBridge()
-        self.topic_name = '/oakd/rgb/preview/image_raw'
         if not os.path.exists(weights_path):
             self.get_logger().error(f"Weights file not found at: {weights_path}")
             rclpy.shutdown()

@@ -1,0 +1,112 @@
+{
+  "name": "lab8_tracking",
+  "type": "directory",
+  "children": [
+    {
+      "name": "README_tracking.md",
+      "type": "file"
+    },
+    {
+      "name": "reflection.md",
+      "type": "file"
+    },
+    {
+      "name": "sparc_tracking",
+      "type": "directory",
+      "children": [
+        {
+          "name": "config",
+          "type": "directory",
+          "children": [
+            {
+              "name": "tracking_params.yaml",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "image",
+          "type": "directory",
+          "children": [
+            {
+              "name": "Projection.png",
+              "type": "file"
+            },
+            {
+              "name": "rviz.png",
+              "type": "file"
+            },
+            {
+              "name": "static_tf.png",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "launch",
+          "type": "directory",
+          "children": [
+            {
+              "name": "tracking.launch.py",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "package.xml",
+          "type": "file"
+        },
+        {
+          "name": "resource",
+          "type": "directory",
+          "children": [
+            {
+              "name": "sparc_tracking",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "rviz",
+          "type": "directory",
+          "children": [
+            {
+              "name": "tracking.rviz",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "setup.cfg",
+          "type": "file"
+        },
+        {
+          "name": "setup.py",
+          "type": "file"
+        },
+        {
+          "name": "sparc_tracking",
+          "type": "directory",
+          "children": [
+            {
+              "name": "__init__.py",
+              "type": "file"
+            },
+            {
+              "name": "tracking_node_skeleton.py",
+              "type": "file"
+            },
+            {
+              "name": "tracking_node_skeleton_plus_projection.py",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "track_log.csv",
+      "type": "file"
+    }
+  ]
+}

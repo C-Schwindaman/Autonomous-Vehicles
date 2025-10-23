@@ -1,0 +1,16 @@
+sparc_style_tracker:
+  ros__parameters:
+    r_pos: 1.0
+    q: 0.75
+    r_asso: 0.1
+    update_threshold: 10
+    coast_threshold: 5
+    coast_threshold_confirmed: 25
+    track_max_age: 3.0
+    filter_rate: 10.0
+    use_camera: false
+    r_camera: 2.0
+    r_asso_camera: 0.5
+    pointcloud_topic: "/sparc/luminar_front_points/cartesian"
+    enable_csv_logging: true
+    csv_output_path: "/tmp/student_tracks.csv"

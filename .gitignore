@@ -1,0 +1,16 @@
+# Compiled python
+__pycache__
+*.pyc
+
+# ROS 2 build output
+install/
+log/
+build/
+
+# Large files
+*.bag
+*.ini
+*.avi
+*.gz
+*.zip
+*.db3
