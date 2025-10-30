@@ -1,1 +1,2 @@
-Linear Velocity:0.05:Time to complete:58.60
+Linear Velocity: 0.25
+Time to complete: 25.42

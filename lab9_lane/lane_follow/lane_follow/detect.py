@@ -48,7 +48,7 @@ class DetectNode(Node):
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
         lower_white = np.array([0, 0, 170])
         upper_white = np.array([180, 100, 255])
-        lower_orange = np.array([10, 200, 100])
+        lower_orange = np.array([10, 180, 150])
         upper_orange = np.array([30, 255, 255])
         white_mask = cv2.inRange(hsv_roi, lower_white, upper_white)
         orange_mask = cv2.inRange(hsv_roi, lower_orange, upper_orange)
@@ -101,7 +101,7 @@ class DetectNode(Node):
             processed_img_msg.header = msg.header
             self.img_pub.publish(processed_img_msg)
         except Exception as e:
-            self.get_logger().error(f'Failed to publish processed image: {e}'
+            self.get_logger().error(f'Failed to publish processed image: {e}')
         lane_point_msg = PointStamped()
         lane_point_msg.header = msg.header
         image_center_x = float(width // 2)

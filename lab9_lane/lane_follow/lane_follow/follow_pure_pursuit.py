@@ -7,7 +7,7 @@ import math
 class PurePursuitFollower(Node):
     def __init__(self):
         super().__init__('follow_pure_pursuit_node')
-        self.linear_velocity = 0.05
+        self.linear_velocity = 0.25
         self.ground_point_sub = self.create_subscription(
             PointStamped,
             '/ground_point',
