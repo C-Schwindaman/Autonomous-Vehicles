@@ -1,0 +1,15 @@
+This is a document for directions on what I did to get the module working. 
+1. open up the kornshell terminals, your gonna need 4
+2. first terminal start up the race track using the command 
+    ros2 launch turtlebot3_gazebo turtlebot3_autorace_2020.launch.py
+3. second terminal start up a ros_shell and start the command
+    3.1. make sure to do this in a ros_shell
+    3.2. run "act yolo"
+    3.3. run "addpypath yolo"
+    3.4. ros2 run autonomous_driving sign_detector \--weights_dir ~/av/hyunjoey_av/AV_Project_22/runs/detect/train8/weights \
+    This is going to open up a big window if its too big you can minimize it just helps to visualize
+    what the robot is seeing
+4. finally, in the third terminal run the launch file with the command 
+    ros2 launch autonomous_driving autonomous_driving_launch.py
+    This will use the launch file and open everything and the robot will start to move. It will also 
+    output the state it is in. 
