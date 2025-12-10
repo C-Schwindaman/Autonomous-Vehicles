@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Construction', 'Do Not Enter', 'Intersection', 'Left Turn Sign', 'Parking Allowed', 'Right Turn', 'Stop Sign', 'Tunnel']
+
+roboflow:
+  workspace: lab7-gp6ov
+  project: av-project-1-c1ek3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lab7-gp6ov/av-project-1-c1ek3/dataset/2

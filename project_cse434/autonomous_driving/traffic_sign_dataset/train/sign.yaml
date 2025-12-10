@@ -1,0 +1,18 @@
+
+path: /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/autonomous_driving/traffic_sign_dataset/train
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 8
+
+names:
+  0: Construction
+  1: Do Not Enter
+  2: Intersection
+  3: Left Turn Sign
+  4: Parking Allowed
+  5: Right Turn
+  6: Stop Sign
+  7: Tunnel
