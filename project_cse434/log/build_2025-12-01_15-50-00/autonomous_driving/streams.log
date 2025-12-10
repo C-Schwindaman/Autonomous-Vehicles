@@ -1,0 +1,28 @@
+[0.797s] Invoking command in '/mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving': PS1=humble:\u@\h:\w\$ PYTHONPATH=/mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving/build --no-deps symlink_data
+[1.049s] running develop
+[1.220s] running egg_info
+[1.220s] creating autonomous_driving.egg-info
+[1.223s] writing autonomous_driving.egg-info/PKG-INFO
+[1.230s] writing dependency_links to autonomous_driving.egg-info/dependency_links.txt
+[1.236s] writing entry points to autonomous_driving.egg-info/entry_points.txt
+[1.238s] writing requirements to autonomous_driving.egg-info/requires.txt
+[1.241s] writing top-level names to autonomous_driving.egg-info/top_level.txt
+[1.244s] writing manifest file 'autonomous_driving.egg-info/SOURCES.txt'
+[1.251s] reading manifest file 'autonomous_driving.egg-info/SOURCES.txt'
+[1.253s] writing manifest file 'autonomous_driving.egg-info/SOURCES.txt'
+[1.255s] running build_ext
+[1.255s] Creating /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/python3.10/site-packages/autonomous-driving.egg-link (link to .)
+[1.260s] Installing collect_signs script to /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/autonomous_driving
+[1.266s] Installing decision_maker_node script to /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/autonomous_driving
+[1.270s] Installing lane_detector_node script to /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/autonomous_driving
+[1.273s] Installing obstacle_detector_node script to /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/autonomous_driving
+[1.279s] Installing sign_detector script to /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/autonomous_driving
+[1.282s] 
+[1.282s] Installed /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving
+[1.283s] running symlink_data
+[1.283s] creating /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/share/ament_index
+[1.284s] creating /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/share/ament_index/resource_index
+[1.286s] creating /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/share/ament_index/resource_index/packages
+[1.288s] symbolically linking /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving/resource/autonomous_driving -> /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/share/ament_index/resource_index/packages
+[1.289s] symbolically linking /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving/package.xml -> /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/share/autonomous_driving
+[1.311s] Invoked command in '/mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving' returned '0': PS1=humble:\u@\h:\w\$ PYTHONPATH=/mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/install/autonomous_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/home/hyunjoey/av/hyunjoey_av/AV_Project_22/build/autonomous_driving/build --no-deps symlink_data
